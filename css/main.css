@@ -1,8 +1,6 @@
 body {
-    background-color: #ffffff1e;
-    opacity: 200%;
+    background-color: black;
 }
-
 .container:before {
     content: "Welcome";
     position: absolute;
@@ -12,7 +10,7 @@ body {
     height: 100%;
     z-index: -1;
     opacity: 0.8;
-    background-image: url(https://www.10wallpaper.com/wallpaper/1680x1050/2101/Cosmic_Space_Planet_Interpretation_2021_Creative_Design_1680x1050.jpg);
+    background-image: url(https://data.1freewallpapers.com/download/space-planet-asteroids-light-flash.jpg);
     background-size: cover;
     animation: background-animation 20s infinite;
 }
