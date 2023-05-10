@@ -3,8 +3,8 @@ body {
     opacity: 200%;
 }
 
-.body:before {
-    content: "Welcome";
+nav,.log:before {
+    content: "M.P.";
     position: absolute;
     top: 0;
     left: 0;
@@ -14,7 +14,14 @@ body {
     opacity: 0.8;
     background-image: url(https://data.1freewallpapers.com/download/space-planet-asteroids-light-flash.jpg);
     background-size: cover;
-    animation: background-animation 20s infinite;
+    animation: background-animation 25s infinite;
+}
+.login-box {
+	background: #ffffff1e;
+	padding: 50px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	position: relative;
 }
 
 @keyframes background-animation {
