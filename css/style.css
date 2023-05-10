@@ -3,7 +3,7 @@ body {
     opacity: 200%;
 }
 
-.container:before {
+.body:before {
     content: "Welcome";
     position: absolute;
     top: 0;
