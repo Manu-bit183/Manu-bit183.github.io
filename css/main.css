@@ -3,7 +3,7 @@ body {
     opacity: 200%;
 }
 
-nav,.log:before {
+body:before {
     content: "M.P.";
     position: absolute;
     top: 0;
