@@ -1,9 +1,9 @@
 body {
     background-color: black;
-    opacity: 100%;
+    opacity: 90%;
 }
 
-nav,.body:before {
+body:before {
     content: "M.P.";
     position: absolute;
     top: 0;
