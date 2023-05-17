@@ -3,17 +3,17 @@
     color: white;
 }
 body {
-    background-color: rgba(0, 0, 0, 0.747);
+    background-color: black;
     opacity: 90%;
 }
 
 .page {
-    border-left: 5px solid black;
-    border-right: 5px solid black;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
 }
 
 nav:before {
-    content: "M.P.";
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -28,7 +28,7 @@ nav:before {
 
 .card,
 .card-group:before {
-    content: "M.P.";
+    content: "";
     position: absolute;
     top: 0;
     left: 0;

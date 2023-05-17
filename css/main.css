@@ -1,10 +1,20 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
 body {
     background-color: black;
     opacity: 90%;
 }
 
-body:before {
-    content: "M.P.";
+.page {
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+}
+
+nav:before {
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -12,10 +22,11 @@ body:before {
     height: 100%;
     z-index: -1;
     opacity: 0.8;
-    background-image: url(https://data.1freewallpapers.com/download/space-planet-asteroids-light-flash.jpg);
+    background-image: url(https://www.10wallpaper.com/wallpaper/1680x1050/2101/Cosmic_Space_Planet_Interpretation_2021_Creative_Design_1680x1050.jpg);
     background-size: cover;
-    animation: background-animation 25s infinite;
+    animation: background-animation 20s infinite;
 }
+
 .login-box {
 	background: #ffffff1e;
 	padding: 50px;
