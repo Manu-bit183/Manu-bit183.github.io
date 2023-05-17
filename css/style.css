@@ -1,6 +1,7 @@
 body {
-    background-color: #ffffff1e;
+    background-color: black;
     opacity: 150%;
+    
 }
 
 .page {
@@ -49,7 +50,7 @@ nav:before {
         background-position: 0 0;
     }
 
-    50% {
+    70% {
         background-position: 50% 100%;
     }
 

@@ -1,9 +1,9 @@
 body {
     background-color: black;
-    opacity: 200%;
+    opacity: 100%;
 }
 
-nav,.log:before {
+nav,.body:before {
     content: "M.P.";
     position: absolute;
     top: 0;
@@ -29,7 +29,7 @@ nav,.log:before {
         background-position: 0 0;
     }
 
-    50% {
+    70% {
         background-position: 50% 100%;
     }
 
