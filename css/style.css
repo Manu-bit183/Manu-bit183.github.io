@@ -2,6 +2,7 @@
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
+
 body {
     background-color: black;
     opacity: 90%;
@@ -26,8 +27,8 @@ nav:before {
     animation: background-animation 20s infinite;
 }
 
-.card,
-.card-group:before {
+.card-group,
+.card:before {
     content: "";
     position: absolute;
     top: 0;
@@ -36,26 +37,26 @@ nav:before {
     height: 100%;
     z-index: -1;
     opacity: 0.8;
-    background-image: url(https://www.10wallpaper.com/wallpaper/1680x1050/2101/Cosmic_Space_Planet_Interpretation_2021_Creative_Design_1680x1050.jpg);
+    background-image: url(/img/nebulae_main.jpg);
     background-size: cover;
     animation: background-animation 20s infinite;
 }
 
 .log {
-	background: #ffffff1e;
-	padding: 50px;
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-	border-radius: 5px;
-	position: relative;
+    background: #ffffff1e;
+    padding: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    position: relative;
 }
 
 
 .login-box {
-	background: #ffffff1e;
-	padding: 50px;
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-	border-radius: 5px;
-	position: relative;
+    background: #ffffff1e;
+    padding: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    position: relative;
 }
 
 @keyframes background-animation {
