@@ -3,11 +3,6 @@
     color: white;
 }
 
-body {
-    background-color: black;
-    opacity: 90%;
-}
-
 .page {
     border-left: 5px solid white;
     border-right: 5px solid white;
@@ -24,9 +19,10 @@ nav:before {
     opacity: 0.8;
     background-image: url(https://www.10wallpaper.com/wallpaper/1680x1050/2101/Cosmic_Space_Planet_Interpretation_2021_Creative_Design_1680x1050.jpg);
     background-size: cover;
-    animation: background-animation 20s infinite;
+    animation: background-animation 10s infinite;
 }
 
+.body,
 .card-group,
 .card:before {
     content: "";
@@ -39,7 +35,8 @@ nav:before {
     opacity: 0.8;
     background-image: url(/img/nebulae_main.jpg);
     background-size: cover;
-    animation: background-animation 20s infinite;
+    object-fit: cover;
+    animation: background-animation 10s infinite;
 }
 
 .log {
@@ -69,7 +66,7 @@ nav:before {
     }
 
     100% {
-        background-position: 0 0;
+        background-position: 50% 0;
     }
 }
 
