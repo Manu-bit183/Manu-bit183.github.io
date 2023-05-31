@@ -4,8 +4,8 @@
 }
 
 .page {
-    border-left: 5px solid white;
-    border-right: 5px solid white;
+    border-left: 5px solid rgba(41, 41, 226, 0.568);
+    border-right: 5px solid rgba(41, 41, 226, 0.568);
 }
 
 nav:before {
@@ -22,7 +22,7 @@ nav:before {
     animation: background-animation 10s infinite;
 }
 
-.body,
+
 .card-group,
 .card:before {
     content: "";
@@ -75,6 +75,7 @@ nav:before {
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: black;
 }
 
 header {
