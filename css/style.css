@@ -8,7 +8,9 @@
     border-right: 5px solid rgba(41, 41, 226, 0.568);
 }
 
-.body,nav:before {
+
+.body,
+nav:before {
     content: "";
     position: absolute;
     top: 0;
