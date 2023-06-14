@@ -8,7 +8,6 @@
     border-right: 5px solid rgba(41, 41, 226, 0.568);
 }
 
-
 .body,
 nav:before {
     content: "";
@@ -71,8 +70,6 @@ nav:before {
         background-position: 50% 0;
     }
 }
-
-
 
 body {
     margin: 0;
