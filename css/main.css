@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('https://hdqwalls.com/wallpapers/fantasy-landscape-horizon-clouds-4k-sj.jpg');
+    background-image: url('https://images.hdqwalls.com/download/cs-go-4k-du-1920x1080.jpg');
+    background-size: cover;
+    animation: background-animation 10s infinite;
+}
+
+.login-box form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 3px
+}
+
+.login-box a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 24px 0;
+}
+
+/*nav */
+header {
+    padding: 1.7rem 1rem;
+    backdrop-filter: blur(10px);
+    background-color: transparent;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: auto;
+}
+
+.logo {
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.logo a {
+    color: #2f002c;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding: 0;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+li {
+    padding: 0rem 1.1rem;
+    float: left;
+}
+
+li a {
+    color: #2f002c;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: .7px;
+}
+
+li a:hover {
+    color: #C8363E;
+    transition: all .3s ease-in-out
+}
