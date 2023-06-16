@@ -11,32 +11,14 @@
 .body,
 nav:before {
     content: "";
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     z-index: -1;
     opacity: 0.8;
-    background-image: url(https://www.10wallpaper.com/wallpaper/1680x1050/2101/Cosmic_Space_Planet_Interpretation_2021_Creative_Design_1680x1050.jpg);
-    background-size: cover contain;
-    animation: background-animation 10s infinite;
-}
-
-
-.card-group,
-.card:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.8;
-    background-image: url(/img/nebulae_main.jpg);
-    background-size: cover contain;
-    object-fit: cover;
+    background-image: url('https://images.hdqwalls.com/download/cs-go-4k-du-1920x1080.jpg');
+    background-size: cover;
     animation: background-animation 10s infinite;
 }
 
@@ -67,7 +49,7 @@ nav:before {
     }
 
     100% {
-        background-position: 0 0;
+        background-position: 50% 0;
     }
 }
 
