@@ -14,7 +14,7 @@ loginButton.addEventListener("click", function (event) {
 	if (username === savedUsername && password === savedPassword) {
 		alert("Je bent succesvol ingelogd!");
 		localStorage.setItem("isLoggedIn", "true");
-		window.location.href = "/html/weerstation.html";
+		window.location.href = "/Dashboard/html/weerstation.html";
 	} else {
 		alert("Ongeldige gebruikersnaam of wachtwoord.");
 	}

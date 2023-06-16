@@ -19,7 +19,7 @@ nav:before {
     z-index: -1;
     opacity: 0.8;
     background-image: url(https://www.10wallpaper.com/wallpaper/1680x1050/2101/Cosmic_Space_Planet_Interpretation_2021_Creative_Design_1680x1050.jpg);
-    background-size: cover;
+    background-size: cover contain;
     animation: background-animation 10s infinite;
 }
 
@@ -35,7 +35,7 @@ nav:before {
     z-index: -1;
     opacity: 0.8;
     background-image: url(/img/nebulae_main.jpg);
-    background-size: cover;
+    background-size: cover contain;
     object-fit: cover;
     animation: background-animation 10s infinite;
 }
@@ -67,7 +67,7 @@ nav:before {
     }
 
     100% {
-        background-position: 50% 0;
+        background-position: 0 0;
     }
 }
 
