@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Escape</title>
+        <link rel="stylesheet" href="css/styleER.css">
+</head>
+
+<body>
+        Dit is de pagina voor de Escape Room
+
+        <div class="wrapperclicker right">
+
+                <button class="clicker clickerbutt right" type="button" onClick="butcookie()"><img
+                                src="media/ER/bread-cno.png" alt="Lekker broodje"></button>
+                <button id="begin" class="clicker right begin" type="button"
+                        onClick="clickergamebegin()">Begin</button>
+
+
+                <button class="clicker button2 right" id="button2" type="button" onClick="butt1()">Upgrade!<br>Cost = <a
+                                id="linkbutt1cost">10</a></button>
+
+                <button class="clicker button3 right" type="button" onclick="buyclickerone()">Buy Clicker!<br>Cost = <a
+                                id="linkbuyclickeronecost">3</a></button>
+
+                <p class="clicker right brown"> Broodjes: <a id="clicks">0</a></p>
+                
+                <p class="clicker right red"> Seconden over: <a id="timeleft">0</a></p>
+
+        </div>
+        
+        <div class="fotopuzzel">
+            <button class="broodknop1" id="broodknop2" type="button" onclick="lol()"><img class="broodimage" src="media/ER/bread-cno.png" alt=""></button>    
+        </div>
+
+
+<div class="kleurblok1" id="kleurblokid1"></div>
+        <button class="csscodeinvoer" id="codeknop1" type="button" onclick="codecheck()">Voer hier je code in!</button>
+
+        <script src="js/mainER.js"></script>
+</body>
+</html>

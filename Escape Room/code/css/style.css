@@ -1,0 +1,37 @@
+body {
+    background-image: url("534517C9AB1407F69C890FE58A59B017-een-kasteel-in-het-bos.jpg");
+    background-size: cover;
+}
+
+.wrapper {
+    background-color: azure;
+    width: 700px;
+    height: 350px;
+    border: 4px solid black;
+    margin: auto;
+    margin-top: 12.5%;
+}
+
+.tekst {
+    width: 675px;
+    height: 232.5px;
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.buttons1, .cssbutton1{
+    height: 100px;
+    width: 675px;
+    background-color: bisque;
+    margin: auto;
+    
+}
+
+.buttons1{
+    height: 100px;
+    width: 675px;
+    background-color: bisque;
+    margin: auto;
+    border: 2px solid black;
+}
